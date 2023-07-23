@@ -1,0 +1,15 @@
+.carrito {
+  grid-column: 12;
+  display: grid;
+  gap: .3125rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 700;
+}

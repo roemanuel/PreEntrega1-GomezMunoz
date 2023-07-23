@@ -1,0 +1,8 @@
+.btn {
+  padding: .3125rem .9375rem;
+  color: white;
+  max-width: 9.375rem;
+  background-color: orangered;
+  border: none;
+  margin: .3125rem .9375rem;
+}

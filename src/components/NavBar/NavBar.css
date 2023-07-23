@@ -1,0 +1,38 @@
+* {
+  margin: 0 auto;
+}
+
+nav {
+  background-color: orange;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: 3.125rem;
+}
+
+.logo {
+  grid-column: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+.menu {
+  grid-column: 2/12;
+  padding: 0;
+  gap: .625rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
